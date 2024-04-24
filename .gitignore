@@ -1,0 +1,6 @@
+__pycache__
+.ipynb_checkpoints
+preprocess
+t5_20k/
+bart_20k/
+*.csv
