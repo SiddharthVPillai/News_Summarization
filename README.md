@@ -1,8 +1,8 @@
 # News Summarization
 
 ## Introduction
-- A news summarization application which summarizes articels from cnn website by retrieving articles using web scraper and fedding those articles to our finetuned transformer models.
-- Earlier used topic representation to generate summaries by selecting top k import sentences from the given paragraph.
+- A news summarization application which summarizes articels from cnn website by retrieving articles using web scraper and feeding those articles to our finetuned transformer models.
+- Used topic representation to generate summaries by selecting top k import sentences from the given paragraph.
 - Moved to an encoder decoder architecture with embeddings generated using word2vec and got rouge-1 precision 0.256 with an accuracy of 0.86.
 - Fine tuned transformer models, t5-base and bart-base, and achieved rouge-1 precision of 0.422 and 0.339 respectively.
 - Used beautiful soup 4 to create web scraper for cnn website.
